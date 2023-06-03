@@ -1,0 +1,132 @@
+html,body
+{
+    height: 100%;
+}
+*
+{
+    margin: 0px;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.header
+{
+    background-color: #00008b;
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px 5px 15px;
+}
+.links
+{
+    display: flex;
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+.content
+{
+    background-color: #00008b;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.left .h
+{
+    padding-bottom: 8px;
+}
+.left .p
+{
+    padding-bottom: 16px;
+}
+.right
+{
+    display: flex;
+    gap: 80px;
+    padding: 10px;
+}
+.button
+{
+    background-color: #e0ffff;
+    border: 57px;
+}
+.box-1 .rele
+{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 32px;
+}
+.box-1 ul
+{
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+.box-2
+{
+    background-color: #778899;
+    color: #f0f8ff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.box-2 p
+{
+    padding: 10px;
+    font-size: 32px;
+    font-family: cursive;
+}
+.button-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.newsletter
+{
+    display: flex;
+    flex-flow: column;
+}
+.subscription
+{
+    display: flex;
+    background-color: #87cefa;
+    color: #ffffff;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+}
+.signup
+{
+    display: flex;
+    background-color: #87cefa;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.fotter
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #2f4f4f;
+    color: #f5f5f5;
+}
